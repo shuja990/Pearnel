@@ -78,13 +78,13 @@ const Enumerate = () => {
           <ul>
             <li>
               Call the constituency office at{" "}
-              <a href="tel:876-634-5151">876-634-5151</a> OR call the EOJ at{" "}
-              <a href="tel:1-888-991-8683">1-888-991-VOTE (8683)</a>.
+              <a href="tel:876-634-5151" style={{color:"#0f92b9"}}>876-634-5151</a> OR call the EOJ at{" "}
+              <a href="tel:1-888-991-8683" style={{color:"#0f92b9"}}>1-888-991-VOTE (8683)</a>.
             </li>
             <li>Visit the constituency office</li>
             <li>
               Visit the EOJ website via{" "}
-              <a href="https://ecj.com.jm/">https://ecj.com.jm/</a>
+              <a href="https://ecj.com.jm/" style={{color:"#7db45f"}}>https://ecj.com.jm/</a>
             </li>
           </ul>
         </Col>

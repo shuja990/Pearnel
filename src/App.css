@@ -37,3 +37,37 @@
     transform: rotate(360deg);
   }
 }
+
+h1 {
+  color: #0f92b9 !important;
+}
+
+h2 {
+  color: #0f92b9 !important;
+
+}
+
+h3 {
+  color: #0f92b9 !important;
+
+}
+
+h4 {
+  color: #0f92b9 !important;
+
+}
+
+h5 {
+  color: #0f92b9 !important;
+
+}
+
+img {
+  filter: drop-shadow(16px 14px 9px #7db45f);
+}
+.bg-dark{
+  background-color: #3f3f3f;
+}
+.navbar-brand{
+  color: #0f92b9 !important;
+}

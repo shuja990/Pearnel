@@ -21,7 +21,7 @@ const Vision = () => {
             social growth.
             <br />
             <br />
-            <span className="font-weight-bold" style={{ color: "black" }}>
+            <span className="font-weight-bold" style={{ color: "#0f92b9" }}>
               South East Clarendon, you are now my priority. Your issues are my
               issues, your concerns are my concerns.
             </span>

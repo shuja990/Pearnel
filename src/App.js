@@ -11,14 +11,14 @@ import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Moaf from "./pages/MOAF/Moaf";
 import Education from "./pages/Education/Education";
-import Vision from './pages/SECVision&Plans/Vision'
-import SmallBiz from './pages/SmallBiz/SmallBiz'
-import AccessWater from './pages/AccessWater/AccessWater'
-import Building from './pages/Building'
-import Intern from './pages/Intern/Intern'
-import Donate from './pages/Donate/Donate'
-import Enumerate from './pages/Enumerate/Enumerate'
-
+import Vision from "./pages/SECVision&Plans/Vision";
+import SmallBiz from "./pages/SmallBiz/SmallBiz";
+import AccessWater from "./pages/AccessWater/AccessWater";
+import Building from "./pages/Building";
+import Intern from "./pages/Intern/Intern";
+import Donate from "./pages/Donate/Donate";
+import Enumerate from "./pages/Enumerate/Enumerate";
+import Contact from "./pages/Contact";
 import "./App.css";
 
 const firebaseConfig = {
@@ -56,6 +56,8 @@ const App = () => {
             <Route exact path="/donate" element={<Donate />} />
             <Route exact path="/intern" element={<Intern />} />
             <Route exact path="/enumerate" element={<Enumerate />} />
+            <Route exact path="/contact" element={<Contact />} />
+
             <Route></Route>
           </Routes>
         </Container>

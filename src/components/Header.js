@@ -5,7 +5,13 @@ import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
 const Header = () => {
   return (
     <header>
-      <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
+      <Navbar
+        bg="dark"
+        variant="dark"
+        expand="lg"
+        collapseOnSelect
+        style={{ background: "#3f3f3f" }}
+      >
         <Container>
           <LinkContainer to="/">
             <Navbar.Brand>Pearnel Charles Jr</Navbar.Brand>

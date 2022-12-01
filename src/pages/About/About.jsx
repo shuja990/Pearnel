@@ -9,7 +9,7 @@ const About = () => {
       <Row style={{ alignItems: "center", justifyContent: "space-between" }}>
         <Col lg={6} md={6} sm={12}>
           <h2>Minister Pearnel Charles, Jnr. MP</h2>
-          <p>MINISTER OF AGRICULTURE AND FISHERIES</p>
+          <p style={{color:"#7db45f"}}>MINISTER OF AGRICULTURE AND FISHERIES</p>
           <p>
             Honourable Pearnel Charles, Jr., MP, was appointed Minister of
             Agriculture and Fisheries on January 11, 2022. Prior to that, he was
