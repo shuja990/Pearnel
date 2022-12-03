@@ -1,6 +1,12 @@
 import React from "react";
 import { LinkContainer } from "react-router-bootstrap";
-import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
+import {
+  Navbar,
+  Nav,
+  Container,
+  NavDropdown,
+  Offcanvas,
+} from "react-bootstrap";
 
 const Header = () => {
   return (
@@ -8,17 +14,22 @@ const Header = () => {
       <Navbar
         bg="dark"
         variant="dark"
-        expand="lg"
-        collapseOnSelect
+        expand="sm"
         style={{ background: "#3f3f3f" }}
       >
-        <Container>
+        <Container fluid>
           <LinkContainer to="/">
             <Navbar.Brand>Pearnel Charles Jr</Navbar.Brand>
           </LinkContainer>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ml-auto">
+          <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-sm`} />{" "}
+          <Navbar.Offcanvas id={`offcanvasNavbar-expand-sm`} placement="end">
+            <Offcanvas.Header closeButton>
+              <Offcanvas.Title id={`offcanvasNavbarLabel-expand-sm`}>
+                Pearnel Charles Jr{" "}
+              </Offcanvas.Title>
+            </Offcanvas.Header>
+            <Offcanvas.Body className="ms-auto">
+            <Nav >
               <LinkContainer to="/about">
                 <Nav.Link>About </Nav.Link>
               </LinkContainer>
@@ -69,7 +80,8 @@ const Header = () => {
                 <Nav.Link>Contact </Nav.Link>
               </LinkContainer>
             </Nav>
-          </Navbar.Collapse>
+            </Offcanvas.Body>
+          </Navbar.Offcanvas>
         </Container>
       </Navbar>
     </header>
