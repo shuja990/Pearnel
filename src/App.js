@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Container } from "react-bootstrap";
 import Header from "./components/Header";
+import Councillors from "./pages/Councillors";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import { getStorage } from "firebase/storage";
 import { initializeApp } from "firebase/app";
@@ -42,26 +42,22 @@ const App = () => {
   return (
     <Router>
       <Header />
-      <main className="py-3">
-        <Container>
-          <Routes>
-            <Route exact path="/*" element={<Home />} />
-            <Route exact path="/about" element={<About />} />
-            <Route exact path="/moaf" element={<Moaf />} />
-            <Route exact path="/visions-plans" element={<Vision />} />
-            <Route exact path="/education" element={<Education />} />
-            <Route exact path="/small-business" element={<SmallBiz />} />
-            <Route exact path="/access-water" element={<AccessWater />} />
-            <Route exact path="/building" element={<Building />} />
-            <Route exact path="/donate" element={<Donate />} />
-            <Route exact path="/intern" element={<Intern />} />
-            <Route exact path="/enumerate" element={<Enumerate />} />
-            <Route exact path="/contact" element={<Contact />} />
-
-            <Route></Route>
-          </Routes>
-        </Container>
-      </main>
+      <Routes>
+        <Route exact path="/*" element={<Home />} />
+        <Route exact path="/about" element={<About />} />
+        <Route exact path="/moaf" element={<Moaf />} />
+        <Route exact path="/visions-plans" element={<Vision />} />
+        <Route exact path="/education" element={<Education />} />
+        <Route exact path="/small-business" element={<SmallBiz />} />
+        <Route exact path="/access-water" element={<AccessWater />} />
+        <Route exact path="/building" element={<Building />} />
+        <Route exact path="/donate" element={<Donate />} />
+        <Route exact path="/intern" element={<Intern />} />
+        <Route exact path="/enumerate" element={<Enumerate />} />
+        <Route exact path="/contact" element={<Contact />} />
+        <Route exact path="/councillors" element={<Councillors />} />
+        <Route></Route>
+      </Routes>
     </Router>
   );
 };

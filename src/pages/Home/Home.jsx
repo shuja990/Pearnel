@@ -1,28 +1,26 @@
 import React from "react";
-import { Row, Col, Container, Button } from "react-bootstrap";
+import { Row, Col, Button } from "react-bootstrap";
+import "./Home.css";
 const Home = () => {
   return (
-    <Container>
-      <Row style={{ alignItems: "center" }}>
-        <Col lg={6} md={6} sm={12}>
-          <h2>Minister Pearnel Charles, Jnr. MP</h2>
-          <p>MINISTER OF AGRICULTURE AND FISHERIES</p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-          <Button>Get Involved</Button>
+    <Row style={{ margin: 0 }} className="home-page">
+      <div
+        className="background-home"
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          margin: 0,
+        }}
+      >
+        <Col lg={6} md={6} sm={12} 
+        style={{borderTop:"3px solid white",borderBottom:"3px solid white",paddingTop:"50px",paddingBottom:"50px",display:"flex",flexDirection:"column",}}>
+          <h2 className="welcome">Welcome to the Office of <br/> Minister Pearnel Charles, Jnr. MP</h2>
+          <h1 className="working">Working for you</h1>
+          <Button style={{marginLeft:"auto",marginRight:"auto"}} className="button-involved">Get Involved</Button>
         </Col>
-        <Col lg={6} md={6} sm={12}>
-          <img src={require("../../assets/home.png")} alt="Pearnel Charles" />
-        </Col>
-      </Row>
-    </Container>
+      </div>
+    </Row>
   );
 };
 

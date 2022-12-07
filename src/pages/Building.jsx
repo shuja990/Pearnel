@@ -4,9 +4,17 @@ import { Row, Col, Container } from "react-bootstrap";
 const Building = () => {
   return (
     <Container style={{ padding: "50px" }}>
-      <h1 className="text-center p-4">Building and Road Infrastructure </h1>
       <Row style={{ alignItems: "center" }} className="mt-5">
         <Col lg={6} md={6} sm={12}>
+          <img
+            src={require("../assets/Ministry-43.jpg")}
+            alt="Pearnel Charles"
+            height={"400px"}
+            style={{ width: "100%" }}
+          />
+        </Col>
+        <Col lg={6} md={6} sm={12}>
+          <h2 className="text-center p-4">Building and Road Infrastructure </h2>
           <p>
             One of the major challenges in South East Clarendon continues to be
             poor building and road infrastructure. <br />
@@ -34,14 +42,6 @@ const Building = () => {
           infrastructure through our Building Assistance programme which has
           already provided several members of the constituency with grants for
           construction projects for homes and businesses.
-        </Col>
-        <Col lg={6} md={6} sm={12}>
-          <img
-            src={require("../assets/Ministry-43.jpg")}
-            alt="Pearnel Charles"
-            height={"400px"}
-            style={{ width: "100%" }}
-          />
         </Col>
       </Row>
     </Container>

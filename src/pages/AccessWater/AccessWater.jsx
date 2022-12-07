@@ -4,10 +4,10 @@ import { Row, Col, Container } from "react-bootstrap";
 const AccessWater = () => {
   return (
     <Container style={{ padding: "50px" }}>
-      <h1 className="text-center p-4">Access to Water </h1>
-
       <Row style={{ alignItems: "center" }} className="mt-5">
         <Col lg={6} md={6} sm={12}>
+          <h2 className="text-center p-4">Access to Water </h2>
+
           <p>
             Access to water is a long-standing issue for several communities in
             South East Clarendon.

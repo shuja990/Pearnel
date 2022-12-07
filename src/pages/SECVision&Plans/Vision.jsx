@@ -1,5 +1,9 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
+import AccessWater from "../AccessWater/AccessWater";
+import Building from "../Building";
+import Education from "../Education/Education";
+import SmallBiz from "../SmallBiz/SmallBiz";
 
 const Vision = () => {
   return (
@@ -36,6 +40,11 @@ const Vision = () => {
           />
         </Col>
       </Row>
+      <Education/>
+      <SmallBiz/>
+      <Building/>
+      <AccessWater/>
+
     </Container>
   );
 };

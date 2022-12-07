@@ -4,13 +4,20 @@ import { Row, Col, Container } from "react-bootstrap";
 const Education = () => {
   return (
     <Container style={{ padding: "50px" }}>
-      <h1 className="text-center p-4">Educating Our Youth </h1>
-
       <Row
         style={{ alignItems: "center", justifyContent: "space-between" }}
         className="mt-4"
       >
         <Col lg={6} md={6} sm={12}>
+          <img
+            src={require("../../assets/MP-106.jpg")}
+            alt="Pearnel Charles"
+            height={"350px"}
+            style={{ borderRadius: "10px" }}
+          />
+        </Col>
+        <Col lg={6} md={6} sm={12}>
+          <h2>Educating Our Youth</h2>
           <p>
             Education is one of the strongest tools in eradicating poverty and
             is an essential factor for the full and effective participation of
@@ -39,14 +46,6 @@ const Education = () => {
             It is my dream for all children to have equal access to quality
             education.
           </p>
-        </Col>
-        <Col lg={6} md={6} sm={12}>
-          <img
-            src={require("../../assets/MP-106.jpg")}
-            alt="Pearnel Charles"
-            height={"350px"}
-            style={{ borderRadius: "10px" }}
-          />
         </Col>
       </Row>
     </Container>

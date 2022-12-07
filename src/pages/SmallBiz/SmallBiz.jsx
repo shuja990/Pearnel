@@ -4,13 +4,13 @@ import { Row, Col, Container } from "react-bootstrap";
 const SmallBiz = () => {
   return (
     <Container style={{ padding: "50px" }}>
-      <h1 className="text-center p-4">Supporting Small Businesses </h1>
-
       <Row
         style={{ alignItems: "center", justifyContent: "space-between" }}
         className="mt-4"
       >
         <Col lg={6} md={6} sm={12}>
+          <h2 className="text-center p-4">Supporting Small Businesses </h2>
+
           <p>
             Small businesses play an important role in supporting and building
             their communities.
