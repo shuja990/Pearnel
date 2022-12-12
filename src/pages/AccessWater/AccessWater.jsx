@@ -4,7 +4,7 @@ import { Row, Col, Container } from "react-bootstrap";
 const AccessWater = () => {
   return (
     <Container style={{ padding: "50px" }}>
-      <Row style={{ alignItems: "center" }} className="mt-5">
+      <Row style={{ alignItems: "start" }} className="mt-5">
         <Col lg={6} md={6} sm={12}>
           <h2 className="text-center p-4">Access to Water </h2>
 

@@ -1,5 +1,5 @@
 .home-page {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background: black;
 }
@@ -8,7 +8,7 @@
     top: 0;
     left: 0;
     bottom: 0;
-    height: 75vh;
+    height: 85vh;
     width: 100%;
     background: #000 url(../../assets/home.jpeg) no-repeat;
     background-size: cover;
@@ -26,7 +26,7 @@
 }
 
 .working {
-    color: #58cff4;
+    color: #7db45f !important;
     font-size: 52px !important;
     font-family: 'serif';
     font-weight: 600;
@@ -35,7 +35,8 @@
     letter-spacing: -.04em;
     margin: 10px 0 20px;
 }
-.button-involved{
+
+.button-involved {
     background-color: white;
     color: #000;
     font-weight: 700;
@@ -44,7 +45,14 @@
     width: 200px;
     border: none;
 }
-.button-involved:hover{
+
+.button-involved:hover {
     background-color: black;
     color: white;
+}
+
+@media screen and (max-width:768px) {
+    .order-media {
+        order: -1
+    }
 }

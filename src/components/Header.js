@@ -25,11 +25,11 @@ const Header = () => {
           <Navbar.Offcanvas
             id={`offcanvasNavbar-expand-${false}`}
             placement="end"
-            style={{ background: "#3f3f3f",color:"white" }}
+            // style={{ background: "#3f3f3f",color:"white" }}
           >
             <Offcanvas.Header closeButton>
               <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${false}`}>
-                Pearnel Charles Jr{" "}
+              <img src={require("../assets/logo.png")} alt="James" width="150px" style={{filter:"none"}}/>
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body className="">

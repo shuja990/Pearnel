@@ -6,7 +6,7 @@ const Intern = () => {
     <Container style={{ padding: "50px" }}>
       <h1 className="text-center p-4">Intern/Volunteer </h1>
 
-      <Row style={{ alignItems: "center", justifyContent: "space-between" }}>
+      <Row style={{ alignItems: "start", justifyContent: "space-between" }}>
         <Col lg={6} md={6} sm={12}>
           <p>
             Work with your Member of Parliament and help Charles Jr to make a

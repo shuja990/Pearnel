@@ -5,10 +5,10 @@ const Education = () => {
   return (
     <Container style={{ padding: "50px" }}>
       <Row
-        style={{ alignItems: "center", justifyContent: "space-between" }}
+        style={{ alignItems: "start", justifyContent: "space-between" }}
         className="mt-4"
       >
-        <Col lg={6} md={6} sm={12}>
+        <Col lg={6} md={6} sm={12} className="pe-4">
           <img
             src={require("../../assets/MP-106.jpg")}
             alt="Pearnel Charles"
@@ -16,7 +16,7 @@ const Education = () => {
             style={{ borderRadius: "10px" }}
           />
         </Col>
-        <Col lg={6} md={6} sm={12}>
+        <Col lg={6} md={6} sm={12} className="order-md-0  m-4 order-sm-0">
           <h2>Educating Our Youth</h2>
           <p>
             Education is one of the strongest tools in eradicating poverty and

@@ -6,7 +6,7 @@ const Donate = () => {
     <Container style={{ padding: "50px" }}>
       <h1 className="text-center p-4">Donate </h1>
 
-      <Row style={{ alignItems: "center", justifyContent: "space-between" }}>
+      <Row style={{ alignItems: "start", justifyContent: "space-between" }}>
         <Col lg={6} md={6} sm={12}>
           <p>Donate and help to build South East Clarendon!</p>
           <p>

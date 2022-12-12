@@ -6,45 +6,46 @@ const Contact = () => {
     <Container style={{ padding: "50px" }}>
       <h1 className="text-center p-4">Contact Us </h1>
       <Row
-        style={{ alignItems: "center", justifyContent: "space-between" }}
-        className="mt-4 w-75 m-auto"
+        style={{ alignItems: "start", justifyContent: "space-between",border:"1px solid #ababab", padding:"20px",borderRadius:"30px" }}
+        className="m-4"
       >
-        <Form>
-          <Form.Group className="mb-3" controlId="formBasicEmail">
-            <Form.Group className="mb-3" controlId="formBasicPassword">
-              <Form.Label>Name</Form.Label>
-              <Form.Control type="text" placeholder="Name" />
+        <Col lg={6} md={12}>
+          <Form>
+            <Form.Group className="mb-3" controlId="formBasicEmail">
+              <Form.Group className="mb-3" controlId="formBasicPassword">
+                <Form.Label>Name</Form.Label>
+                <Form.Control type="text" placeholder="Name" />
+              </Form.Group>
+              <Form.Label>Email address</Form.Label>
+              <Form.Control type="email" placeholder="Enter email" />
             </Form.Group>
-            <Form.Label>Email address</Form.Label>
-            <Form.Control type="email" placeholder="Enter email" />
-          </Form.Group>
-          <Form.Group>
-            <Form.Label>Message</Form.Label>
+            <Form.Group>
+              <Form.Label>Message</Form.Label>
 
-            <Form.Control as="textarea" placeholder="Leave your message here" />
-          </Form.Group>
-          <Button
-            variant="primary"
-            type="submit"
-            className="mt-2 ps-4 pe-4"
-            style={{
-              background: "black",
-              color: "white",
-              border: "none",
-              fontSize: "15px",
-              fontWeight: "600",
-              fontFamily: "sans-serif",
-            }}
-          >
-            Submit
-          </Button>
-        </Form>
-      </Row>
-      <Row
-        style={{ alignItems: "center", justifyContent: "space-between" }}
-        className="mt-4"
-      >
-        <Col lg={6} md={6} sm={12}>
+              <Form.Control
+                as="textarea"
+                placeholder="Leave your message here"
+                rows={7}
+              />
+            </Form.Group>
+            <Button
+              variant="primary"
+              type="submit"
+              className="mt-2 ps-4 pe-4"
+              style={{
+                background: "black",
+                color: "white",
+                border: "none",
+                fontSize: "15px",
+                fontWeight: "600",
+                fontFamily: "sans-serif",
+              }}
+            >
+              Submit
+            </Button>
+          </Form>
+        </Col>
+        <Col lg={6} md={12} >
           <h2>Minister</h2>
           <div className="contact-grid">
             <h5>Office: </h5>
@@ -62,8 +63,6 @@ const Contact = () => {
               minister@moa.gov.jm
             </a>
           </div>
-        </Col>
-        <Col lg={6} md={6} sm={12}>
           <h3>Constituency: </h3>
           <div className="contact-grid">
             <h5>Office:</h5>
@@ -96,9 +95,10 @@ const Contact = () => {
           </div>
         </Col>
       </Row>
+
       <h2>Law Office</h2>
       <Row
-        style={{ alignItems: "center", justifyContent: "space-between" }}
+        style={{ alignItems: "start", justifyContent: "space-between" }}
         className="mt-4"
       >
         <Col lg={6} md={6} sm={12}>

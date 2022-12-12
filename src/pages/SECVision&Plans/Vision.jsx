@@ -10,7 +10,7 @@ const Vision = () => {
     <Container style={{ padding: "50px" }}>
       <h1 className="text-center p-4">SEC vision and plans </h1>
 
-      <Row style={{ alignItems: "center", justifyContent: "space-between" }}>
+      <Row style={{ alignItems: "start", justifyContent: "space-between" }}>
         <Col lg={6} md={6} sm={12}>
           <p>
             My vision as Member of Parliament for South East Clarendon is to
@@ -33,7 +33,7 @@ const Vision = () => {
         </Col>
         <Col lg={6} md={6} sm={12}>
           <img
-            src={require("../../assets/Ministry-2.jpg")}
+            src={require("../../assets/vision.jpeg")}
             alt="Pearnel Charles"
             height={"350px"}
             style={{ borderRadius: "10px" }}

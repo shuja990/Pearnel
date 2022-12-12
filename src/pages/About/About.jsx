@@ -4,9 +4,8 @@ import { Row, Col, Container } from "react-bootstrap";
 const About = () => {
   return (
     <Container style={{ padding: "50px" }}>
-      <h1 className="text-center p-4">About</h1>
 
-      <Row style={{ alignItems: "center", justifyContent: "space-between" }}>
+      <Row style={{ alignItems: "start", justifyContent: "space-between" }}>
         <Col lg={6} md={6} sm={12}>
           <h2>Minister Pearnel Charles, Jnr. MP</h2>
           <p style={{color:"#7db45f"}}>MINISTER OF AGRICULTURE AND FISHERIES</p>
@@ -27,16 +26,16 @@ const About = () => {
             National Council for Coastal Zone Management, among other areas.
           </p>
         </Col>
-        <Col lg={6} md={6} sm={12}>
+        <Col lg={6} md={6} sm={12} className="d-flex justify-content-center">
           <img
-            src={require("../../assets/Ministry-3.jpg")}
+            src={require("../../assets/aboutus.jpeg")}
             alt="Pearnel Charles"
-            height={"350px"}
+            height={"400px"}
             style={{ borderRadius: "10px" }}
           />
         </Col>
       </Row>
-      <Row style={{ alignItems: "center", marginTop: "20px" }}>
+      <Row style={{ alignItems: "start", marginTop: "20px" }}>
         <p>
           Minster Charles also served as Minister of State in the Ministry of
           National Security, where he had portfolio duties for the Department of
@@ -53,7 +52,7 @@ const About = () => {
           Offices of Pearnel P. Charles Jr.
         </p>
       </Row>
-      <Row style={{ alignItems: "center" }}>
+      <Row style={{ alignItems: "start" }}>
         <Col lg={6} md={6} sm={12}>
           <img
             src={require("../../assets/MP-118.jpg")}

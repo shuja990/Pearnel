@@ -8,7 +8,7 @@ const Moaf = () => {
         Ministry of Agriculture and Fisheries (MoAF){" "}
       </h1>
 
-      <Row style={{ alignItems: "center", justifyContent: "space-between" }}>
+      <Row style={{ alignItems: "start", justifyContent: "space-between" }}>
         <Col lg={6} md={6} sm={12}>
           <p>
             The Ministry of Agriculture and Fisheries (MoAF) has been charged
@@ -42,7 +42,7 @@ const Moaf = () => {
           />
         </Col>
       </Row>
-      <Row style={{ alignItems: "center" }} className="mt-5">
+      <Row style={{ alignItems: "start" }} className="mt-5">
         <Col lg={12}>
           <h2>Grow Smart, Eat Smart</h2>
         </Col>

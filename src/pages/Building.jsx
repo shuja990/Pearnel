@@ -4,10 +4,10 @@ import { Row, Col, Container } from "react-bootstrap";
 const Building = () => {
   return (
     <Container style={{ padding: "50px" }}>
-      <Row style={{ alignItems: "center" }} className="mt-5">
-        <Col lg={6} md={6} sm={12}>
+      <Row style={{ alignItems: "start" }} className="mt-5">
+        <Col lg={6} md={6} sm={12} className="pe-4">
           <img
-            src={require("../assets/Ministry-43.jpg")}
+            src={require("../assets/building.jpeg")}
             alt="Pearnel Charles"
             height={"400px"}
             style={{ width: "100%" }}
@@ -43,6 +43,25 @@ const Building = () => {
           already provided several members of the constituency with grants for
           construction projects for homes and businesses.
         </Col>
+      </Row>
+      <Row className="mt-4">
+        <Col lg={6}>
+        <img
+            src={require("../assets/building2.jpeg")}
+            alt="Pearnel Charles"
+            height={"400px"}
+            style={{ width: "100%" }}
+          />
+        </Col>
+        <Col lg={6}>
+        <img
+            src={require("../assets/building3.jpeg")}
+            alt="Pearnel Charles"
+            height={"400px"}
+            style={{ width: "100%" }}
+          />
+        </Col>
+
       </Row>
     </Container>
   );

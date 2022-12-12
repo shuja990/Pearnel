@@ -5,7 +5,7 @@ const SmallBiz = () => {
   return (
     <Container style={{ padding: "50px" }}>
       <Row
-        style={{ alignItems: "center", justifyContent: "space-between" }}
+        style={{ alignItems: "start", justifyContent: "space-between" }}
         className="mt-4"
       >
         <Col lg={6} md={6} sm={12}>
