@@ -34,7 +34,7 @@ const Intern = () => {
         </Col>
         <Col lg={6} md={6} sm={12}>
           <img
-            src={require("../../assets/MP-134.jpg")}
+            src={require("../../assets/intern.jpeg")}
             alt="Pearnel Charles"
             height={"450px"}
             style={{ borderRadius: "10px" }}

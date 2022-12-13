@@ -20,6 +20,7 @@ import Donate from "./pages/Donate/Donate";
 import Enumerate from "./pages/Enumerate/Enumerate";
 import Contact from "./pages/Contact";
 import "./App.css";
+import Constituencies from "./pages/Constituencies";
 
 const firebaseConfig = {
   apiKey: "AIzaSyD2rHiBMhN2h2kA7lnNW0X_OUgKebqYBc8",
@@ -56,7 +57,7 @@ const App = () => {
         <Route exact path="/enumerate" element={<Enumerate />} />
         <Route exact path="/contact" element={<Contact />} />
         <Route exact path="/councillors" element={<Councillors />} />
-        <Route></Route>
+        <Route exact path="/communities" element={<Constituencies />} />
       </Routes>
     </Router>
   );
