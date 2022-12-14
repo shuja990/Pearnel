@@ -3,7 +3,7 @@ import { Row, Col, Container } from "react-bootstrap";
 
 const SmallBiz = () => {
   return (
-    <Container style={{ padding: "50px" }}>
+    <Container style={{ padding: "20px" }}>
       <Row
         style={{ alignItems: "start", justifyContent: "space-between" }}
         className="mt-4"
@@ -34,6 +34,7 @@ const SmallBiz = () => {
           <img
             src={require("../../assets/MP-112.jpg")}
             alt="Pearnel Charles"
+            width="100%"
             height={"350px"}
             style={{ borderRadius: "10px" }}
           />

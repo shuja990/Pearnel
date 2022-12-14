@@ -7,11 +7,11 @@ import SmallBiz from "../SmallBiz/SmallBiz";
 
 const Vision = () => {
   return (
-    <Container style={{ padding: "50px" }}>
+    <Container style={{ padding: "20px" }}>
       <h1 className="text-center p-4">SEC vision and plans </h1>
 
       <Row style={{ alignItems: "start", justifyContent: "space-between" }}>
-        <Col lg={6} md={6} sm={12}>
+        <Col lg={6} md={6} sm={12} className="">
           <p>
             My vision as Member of Parliament for South East Clarendon is to
             build a better SEC by increasing employment, improving
@@ -35,8 +35,9 @@ const Vision = () => {
           <img
             src={require("../../assets/vision.jpeg")}
             alt="Pearnel Charles"
+            width="100%"
             height={"350px"}
-            style={{ borderRadius: "10px" }}
+            style={{ borderRadius: "10px",objectFit:"contain" }}
           />
         </Col>
       </Row>

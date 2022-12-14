@@ -3,13 +3,13 @@ import { Row, Col, Container, Form, Button } from "react-bootstrap";
 
 const Contact = () => {
   return (
-    <Container style={{ padding: "50px" }}>
+    <Container style={{ padding: "10px" }}>
       <h1 className="text-center p-4">Contact Us </h1>
       <Row
         style={{ alignItems: "start", justifyContent: "space-between",border:"1px solid #ababab", padding:"20px",borderRadius:"30px" }}
-        className="m-4"
+        className="w-100 m-2"
       >
-        <Col lg={6} md={12}>
+        <Col lg={6} md={12} sm={12}>
           <Form>
             <Form.Group className="mb-3" controlId="formBasicEmail">
               <Form.Group className="mb-3" controlId="formBasicPassword">
@@ -45,7 +45,7 @@ const Contact = () => {
             </Button>
           </Form>
         </Col>
-        <Col lg={6} md={12} >
+        <Col lg={6} md={12} sm={12}>
           <h2>Minister</h2>
           <div className="contact-grid">
             <h5>Office: </h5>

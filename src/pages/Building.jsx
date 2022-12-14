@@ -3,9 +3,9 @@ import { Row, Col, Container } from "react-bootstrap";
 
 const Building = () => {
   return (
-    <Container style={{ padding: "50px" }}>
+    <Container style={{ padding: "20px" }}>
       <Row style={{ alignItems: "start" }} className="mt-5">
-        <Col lg={6} md={6} sm={12} className="pe-4">
+        <Col lg={6} md={6} sm={12} className="pe-4 order-two ">
           <img
             src={require("../assets/building.jpeg")}
             alt="Pearnel Charles"
@@ -13,7 +13,7 @@ const Building = () => {
             style={{ width: "100%" }}
           />
         </Col>
-        <Col lg={6} md={6} sm={12}>
+        <Col lg={6} md={6} sm={12} className="order-one">
           <h2 className="text-center p-4">Building and Road Infrastructure </h2>
           <p>
             One of the major challenges in South East Clarendon continues to be

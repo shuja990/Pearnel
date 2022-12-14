@@ -3,7 +3,7 @@ import { Row, Col, Button, Container } from "react-bootstrap";
 
 const Moaf = () => {
   return (
-    <Container style={{ padding: "50px" }}>
+    <Container style={{ padding: "20px" }}>
       <h1 className="text-center p-4">
         Ministry of Agriculture and Fisheries (MoAF){" "}
       </h1>
@@ -38,6 +38,7 @@ const Moaf = () => {
             src={require("../../assets/Ministry-48.jpg")}
             alt="Pearnel Charles"
             height={"350px"}
+            width="100%"
             style={{ borderRadius: "10px" }}
           />
         </Col>
@@ -117,7 +118,7 @@ const Moaf = () => {
         </Col>
         <Col lg={12}>
           <iframe
-            width="560"
+            width="100%"
             height="315"
             src="https://www.youtube.com/embed/vBObdTc4hKg"
             title="YouTube video player"

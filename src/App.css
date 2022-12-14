@@ -65,9 +65,34 @@ h5 {
 img {
   filter: drop-shadow(16px 14px 9px #7db45f);
 }
-.bg-dark{
+
+.bg-dark {
   background-color: #3f3f3f;
 }
-.navbar-brand{
+
+.navbar-brand {
   color: #0f92b9 !important;
+}
+
+.order-two {
+  display: flex;
+  flex-direction: column;
+  order: 1;
+}
+
+.order-one {
+  display: flex;
+  flex-direction: column;
+  order: 2;
+}
+
+@media screen and (max-width:768px) {
+
+  .order-two {
+    order: 2;
+  }
+
+  .order-one {
+    order: 1;
+  }
 }

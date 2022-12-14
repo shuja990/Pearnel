@@ -3,7 +3,7 @@ import { Row, Col, Container } from "react-bootstrap";
 
 const Intern = () => {
   return (
-    <Container style={{ padding: "50px" }}>
+    <Container style={{ padding: "20px" }}>
       <h1 className="text-center p-4">Intern/Volunteer </h1>
 
       <Row style={{ alignItems: "start", justifyContent: "space-between" }}>
@@ -37,6 +37,7 @@ const Intern = () => {
             src={require("../../assets/intern.jpeg")}
             alt="Pearnel Charles"
             height={"450px"}
+            width="100%"
             style={{ borderRadius: "10px" }}
           />
         </Col>

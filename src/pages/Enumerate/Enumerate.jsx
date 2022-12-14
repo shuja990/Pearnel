@@ -3,7 +3,7 @@ import { Row, Col, Container } from "react-bootstrap";
 
 const Enumerate = () => {
   return (
-    <Container style={{ padding: "50px" }}>
+    <Container style={{ padding: "20px" }}>
       <h1 className="text-center p-4">Enumerate </h1>
 
       <Row style={{ alignItems: "start", justifyContent: "space-between" }}>
@@ -30,6 +30,7 @@ const Enumerate = () => {
           <img
             src={require("../../assets/MP-130.jpg")}
             alt="Pearnel Charles"
+            width="100%"
             height={"350px"}
             style={{ borderRadius: "10px" }}
           />

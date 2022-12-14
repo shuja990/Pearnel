@@ -15,6 +15,7 @@ const Header = () => {
         bg="dark"
         variant="dark"
         expand={false}
+        collapseOnSelect
         style={{ background: "#3f3f3f" }}
       >
         <Container fluid>

@@ -3,7 +3,7 @@ import { Row, Col, Container } from "react-bootstrap";
 
 const Donate = () => {
   return (
-    <Container style={{ padding: "50px" }}>
+    <Container style={{ padding: "20px" }}>
       <h1 className="text-center p-4">Donate </h1>
 
       <Row style={{ alignItems: "start", justifyContent: "space-between" }}>
@@ -22,6 +22,7 @@ const Donate = () => {
             src={require("../../assets/MP-117.jpg")}
             alt="Pearnel Charles"
             height={"450px"}
+            width="100%"
             style={{ borderRadius: "10px" }}
           />
         </Col>

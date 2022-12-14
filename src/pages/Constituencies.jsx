@@ -3,12 +3,13 @@ import { Row, Col, Container } from "react-bootstrap";
 
 const Constituencies = () => {
   return (
-    <Container style={{ padding: "50px" }}>
+    <Container style={{ padding: "20px" }}>
       <h2 className="text-center p-4">List of Communities/ Constituency Map</h2>
       <Row>
         <img
           src={require("../assets/Clarendon SE.jpeg")}
           alt="Pearnel Charles"
+          width="100%"
         />
       </Row>
       <Row

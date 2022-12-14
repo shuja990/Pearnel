@@ -38,7 +38,9 @@ const Home = () => {
           </Button>
         </Col>
       </div>
-      <img src={require("../../assets/logo.png")} alt="James" style={{filter:"none",width:"150px",height:"150px"}}/>
+      <img src={require("../../assets/logo.png")} alt="James" style={{filter:"none",width:"150px",height:"150px"}}
+            width="100%"
+            />
 
     </Row>
   );

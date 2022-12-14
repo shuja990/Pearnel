@@ -33,7 +33,7 @@ const Councillors = () => {
     },
   ];
   return (
-    <Container style={{ padding: "50px" }}>
+    <Container style={{ padding: "10px" }}>
       <h1 className="text-center p-4">Meet the Councillors/Caretakers</h1>
       <div className="d-flex justify-content-center align-items-center flex-wrap">
         {data.map((dat) => (

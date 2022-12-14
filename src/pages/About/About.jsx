@@ -3,7 +3,7 @@ import { Row, Col, Container } from "react-bootstrap";
 
 const About = () => {
   return (
-    <Container style={{ padding: "50px" }}>
+    <Container style={{ padding: "20px" }}>
 
       <Row style={{ alignItems: "start", justifyContent: "space-between" }}>
         <Col lg={6} md={6} sm={12}>
@@ -31,6 +31,7 @@ const About = () => {
             src={require("../../assets/aboutus.jpeg")}
             alt="Pearnel Charles"
             height={"400px"}
+            width="100%"
             style={{ borderRadius: "10px" }}
           />
         </Col>
