@@ -59,7 +59,7 @@ const About = () => {
             src={require("../../assets/MP-118.jpg")}
             alt="Pearnel Charles"
             height={"400px"}
-            style={{ width: "100%" }}
+            style={{ width: "100%",objectFit:"contain" }}
           />
         </Col>
         <Col lg={6} md={6} sm={12}>
