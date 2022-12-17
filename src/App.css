@@ -64,8 +64,12 @@ h5 {
 
 img {
   filter: drop-shadow(16px 14px 9px #7db45f);
+  object-fit: contain;
 }
+iframe{
+  object-fit: contain;
 
+}
 .bg-dark {
   background-color: #3f3f3f;
 }
