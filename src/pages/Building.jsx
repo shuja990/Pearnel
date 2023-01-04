@@ -3,8 +3,8 @@ import { Row, Col, Container } from "react-bootstrap";
 
 const Building = () => {
   return (
-    <Container style={{ padding: "20px" }}>
-      <Row style={{ alignItems: "start" }} className="mt-5">
+    <Container style={{ padding: "20px" }} className="block">
+      <Row style={{ alignItems: "start" }} className="">
         <Col lg={6} md={6} sm={12} className="pe-4 order-two ">
           <img
             src={require("../assets/building.jpeg")}

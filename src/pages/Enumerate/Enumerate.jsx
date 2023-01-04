@@ -36,7 +36,7 @@ const Enumerate = () => {
           />
         </Col>
       </Row>
-      <Row className="mt-4">
+      <Row className="mt-4 block">
         <Col lg={12}>
           <p>Not on the voter’s list? Here’s how to register:</p>
         </Col>

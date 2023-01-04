@@ -36,7 +36,7 @@ const About = () => {
           />
         </Col>
       </Row>
-      <Row style={{ alignItems: "start", marginTop: "20px" }}>
+      <Row style={{ alignItems: "start", marginTop: "20px" }} className="block">
         <p>
           Minster Charles also served as Minister of State in the Ministry of
           National Security, where he had portfolio duties for the Department of

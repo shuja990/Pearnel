@@ -28,7 +28,7 @@
 .working {
     color: #7db45f !important;
     font-size: 52px !important;
-    font-family: 'serif';
+    font-family: 'serif' !important;
     font-weight: 600;
     font-style: italic;
     text-align: center;

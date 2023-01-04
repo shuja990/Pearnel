@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Card, Button } from "react-bootstrap";
+import { Container, Card, Button, Row, Col } from "react-bootstrap";
 import Image1 from "../assets/Ministry-1.jpg";
 import Image2 from "../assets/Ministry-2.jpg";
 import Image3 from "../assets/Ministry-3.jpg";
@@ -31,11 +31,12 @@ const News = () => {
   return (
     <Container style={{ padding: "10px" }}>
       <h1 className="text-center p-4">News</h1>
-      <div className="d-flex justify-content-start align-items-center flex-wrap">
+      <Row>
         {data.map((dat) => (
+          <Col lg={4} md={6} sm={12} className="d-flex justify-content-center align-items-center">
           <Card
             style={{
-              width: "25rem",
+              width: "20rem",
               marginRight: "8px",
               height: "450px",
               margin: "6px",
@@ -62,8 +63,9 @@ const News = () => {
             </Card.Body>
 
           </Card>
+          </Col>
         ))}
-      </div>
+      </Row>
     </Container>
   );
 };

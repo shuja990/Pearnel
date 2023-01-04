@@ -1,5 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
 .App {
   text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #282626;
+}
+
+.offcanvas-backdrop {
+  display: none;
+  position: relative;
+}
+
+.offcanvas.offcanvas-end {
+  bottom: 10%;
+  right: unset;
+  top: unset;
+  border-left: none;
+  min-width: 180px;
+  width: unset;
+  background-color: black;
+}
+
+.nav-link {
+  color: #0f92b9;
+  font-weight: 900;
+}
+
+.btn-close {
+  display: none;
+}
+
+.container {
+  background-color: #f2f2f2;
+  margin-right: 0;
 }
 
 .App-logo {
@@ -40,36 +76,66 @@
 
 h1 {
   color: #0f92b9 !important;
+  font-family: 'Roboto', sans-serif !important;
+
 }
 
 h2 {
   color: #0f92b9 !important;
+  font-family: 'Roboto', sans-serif !important;
+
 
 }
 
 h3 {
   color: #0f92b9 !important;
-
+  font-family: 'Roboto', sans-serif !important;
 }
 
 h4 {
   color: #0f92b9 !important;
-
+  font-family: 'Roboto', sans-serif !important;
 }
 
 h5 {
   color: #0f92b9 !important;
+  font-family: 'Roboto', sans-serif !important;
+}
 
+h6 {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+p {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+div {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+span {
+  font-family: 'Roboto', sans-serif !important;
 }
 
 img {
   filter: drop-shadow(16px 14px 9px #7db45f);
   object-fit: contain;
 }
-iframe{
+
+button {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+a {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+iframe {
   object-fit: contain;
 
 }
+
 .bg-dark {
   background-color: #3f3f3f;
 }
@@ -82,6 +148,26 @@ iframe{
   display: flex;
   flex-direction: column;
   order: 1;
+}
+
+.block {
+  background: rgb(125, 180, 95);
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #f2f2f2f2;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  -moz-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777;
+}
+
+.block> :is(h1, div, h2, h3, h4, h5, h6, p, span, a, button) {
+  font-weight: 500 !important;
+  color: white !important;
+}
+
+.block>h2 {
+  color: white !important;
+
 }
 
 .order-one {

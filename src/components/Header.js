@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { LinkContainer } from "react-router-bootstrap";
 import {
   Navbar,
@@ -9,12 +9,14 @@ import {
 } from "react-bootstrap";
 
 const Header = () => {
+  const [expanded, setExpanded] = useState(true);
   return (
     <header>
       <Navbar
         bg="dark"
         variant="dark"
         expand={false}
+        expanded={expanded}
         collapseOnSelect
         style={{ background: "#3f3f3f" }}
       >
@@ -22,16 +24,26 @@ const Header = () => {
           <LinkContainer to="/">
             <Navbar.Brand>Pearnel Charles Jr</Navbar.Brand>
           </LinkContainer>
-          <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${false}`} />{" "}
+          <Navbar.Toggle
+            aria-controls={`offcanvasNavbar-expand-${false}`}
+            onClick={() => setExpanded(!expanded)}
+          />{" "}
           <Navbar.Offcanvas
             id={`offcanvasNavbar-expand-${false}`}
             placement="end"
             // style={{ background: "#3f3f3f",color:"white" }}
           >
-            <Offcanvas.Header closeButton>
-              <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${false}`}>
-              <img src={require("../assets/logo.png")} alt="James" width="150px" style={{filter:"none"}}/>
-              </Offcanvas.Title>
+            <Offcanvas.Header>
+              <LinkContainer to="/">
+                <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${false}`}>
+                  <img
+                    src={require("../assets/logo.png")}
+                    alt="James"
+                    width="150px"
+                    style={{ filter: "none" }}
+                  />
+                </Offcanvas.Title>
+              </LinkContainer>
             </Offcanvas.Header>
             <Offcanvas.Body className="">
               <Nav>
@@ -67,14 +79,10 @@ const Header = () => {
                     <NavDropdown.Item>Enumerate</NavDropdown.Item>
                   </LinkContainer>
                 </NavDropdown>
-                <NavDropdown title={"Media & Resources"} id="media">
-                  <LinkContainer to="/news">
-                    <NavDropdown.Item>News</NavDropdown.Item>
-                  </LinkContainer>
-                  <LinkContainer to="/archives">
-                    <NavDropdown.Item>Archives</NavDropdown.Item>
-                  </LinkContainer>
-                </NavDropdown>
+                <LinkContainer to="/news">
+                  <Nav.Link>Media & Resources </Nav.Link>
+                </LinkContainer>
+
                 <LinkContainer to="/contact">
                   <Nav.Link>Contact </Nav.Link>
                 </LinkContainer>

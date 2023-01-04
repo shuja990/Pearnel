@@ -3,7 +3,7 @@ import { Row, Col, Container } from "react-bootstrap";
 
 const Education = () => {
   return (
-    <Container style={{ padding: "20px" }}>
+    <Container style={{ padding: "20px", marginTop: "20px" }} className="block">
       <Row
         style={{ alignItems: "start", justifyContent: "space-between" }}
         className="mt-4"

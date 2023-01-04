@@ -24,6 +24,8 @@ const Home = () => {
             paddingBottom: "50px",
             display: "flex",
             flexDirection: "column",
+            opacity: 0.8,
+            background: "black",
           }}
         >
           <h2 className="welcome">
@@ -38,10 +40,12 @@ const Home = () => {
           </Button>
         </Col>
       </div>
-      <img src={require("../../assets/logo.png")} alt="James" style={{filter:"none",width:"150px",height:"150px"}}
-            width="100%"
-            />
-
+      <img
+        src={require("../../assets/logo.png")}
+        alt="James"
+        style={{ filter: "none", width: "80px", height: "80px" }}
+        width="100%"
+      />
     </Row>
   );
 };
