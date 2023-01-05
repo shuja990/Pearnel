@@ -33,7 +33,7 @@ const Vision = () => {
         </Col>
         <Col lg={6} md={6} sm={12}>
           <img
-            src={require("../../assets/vision.jpeg")}
+            src={require("../../assets/vision2.jpeg")}
             alt="Pearnel Charles"
             width="100%"
             height={"350px"}

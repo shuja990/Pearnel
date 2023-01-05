@@ -32,7 +32,7 @@ const SmallBiz = () => {
         </Col>
         <Col lg={6} md={6} sm={12}>
           <img
-            src={require("../../assets/MP-112.jpg")}
+            src={require("../../assets/smallbiz.jpeg")}
             alt="Pearnel Charles"
             width="100%"
             height={"350px"}

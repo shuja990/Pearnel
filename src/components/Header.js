@@ -19,12 +19,12 @@ const Header = () => {
         defaultExpanded
         collapseOnSelect
         // rootCloseEvent={() => setExpanded(!expanded)}
-        style={{ background: "#3f3f3f" }}
+        style={{ background: "transparent" }}
       >
         <Container fluid>
-          <LinkContainer to="/">
-            <Navbar.Brand>Pearnel Charles Jr</Navbar.Brand>
-          </LinkContainer>
+          {/* <LinkContainer to="/">
+            <Navbar.Brand></Navbar.Brand>
+          </LinkContainer> */}
           <Navbar.Toggle
             aria-controls={`offcanvasNavbar-expand-${false}`}
             onClick={() => setExpanded(!expanded)}

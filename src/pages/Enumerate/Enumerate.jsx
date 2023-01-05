@@ -20,8 +20,8 @@ const Enumerate = () => {
             sure to do your part because your vote makes a difference!
           </p>
           <p>
-            Are you on the voter’s list? Check your status now:
-            <a href="https://ecj.com.jm/voters/voters-list/query/">here</a>
+            Are you on the voter’s list? Check your status now:{" "}
+            <a href="https://ecj.com.jm/voters/voters-list/query/">here</a>{" "}
             and express your interest in joining the volunteer/internship
             programme.
           </p>

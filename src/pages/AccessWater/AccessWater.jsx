@@ -27,7 +27,7 @@ const AccessWater = () => {
         </Col>
         <Col lg={6} md={6} sm={12}>
           <img
-            src={require("../../assets/Ministry-45.jpg")}
+            src={require("../../assets/water.jpeg")}
             alt="Pearnel Charles"
             height={"360px"}
             style={{ width: "100%" }}

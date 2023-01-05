@@ -110,14 +110,17 @@ h6 {
 }
 
 p {
+  font-weight: 500 !important;
   font-family: 'Roboto', sans-serif !important;
 }
 
 div {
+  font-weight: 500 !important;
   font-family: 'Roboto', sans-serif !important;
 }
 
 span {
+  font-weight: 500 !important;
   font-family: 'Roboto', sans-serif !important;
 }
 
@@ -127,10 +130,12 @@ img {
 }
 
 button {
+  font-weight: 500 !important;
   font-family: 'Roboto', sans-serif !important;
 }
 
 a {
+  font-weight: 500 !important;
   font-family: 'Roboto', sans-serif !important;
 }
 

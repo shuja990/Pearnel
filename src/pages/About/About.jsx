@@ -56,9 +56,10 @@ const About = () => {
       <Row style={{ alignItems: "start" }}>
         <Col lg={6} md={6} sm={12}>
           <img
-            src={require("../../assets/MP-118.jpg")}
+            src={require("../../assets/vision.jpeg")}
             alt="Pearnel Charles"
             height={"400px"}
+            className="mb-3"
             style={{ width: "100%",objectFit:"contain" }}
           />
         </Col>

@@ -3,11 +3,22 @@ import { Row, Col, Container, Form, Button } from "react-bootstrap";
 
 const Contact = () => {
   return (
-    <Container style={{ padding: "10px" }}>
+    <Container
+      style={{
+      }}
+    >
       <h1 className="text-center p-4">Contact Us </h1>
       <Row
-        style={{ alignItems: "start", justifyContent: "space-between",border:"1px solid #ababab", padding:"20px",borderRadius:"30px" }}
-        className="w-100 m-2"
+        style={{
+          alignItems: "start",
+          justifyContent: "space-between",
+          border: "1px solid #ababab",
+          padding: "20px",
+          borderRadius: "30px",
+          marginRight: "auto !important",
+          marginLeft: "auto !important",
+        }}
+        className="m-2 mb-4"
       >
         <Col lg={6} md={12} sm={12}>
           <Form>
@@ -96,12 +107,20 @@ const Contact = () => {
         </Col>
       </Row>
 
-      <h2>Law Office</h2>
       <Row
-        style={{ alignItems: "start", justifyContent: "space-between" }}
+        style={{
+          alignItems: "start",
+          justifyContent: "space-between",
+          padding: "20px",
+          borderRadius: "30px",
+          marginRight: "auto !important",
+          marginLeft: "auto !important",
+        }}
         className="mt-4"
       >
         <Col lg={6} md={6} sm={12}>
+      <h2>Law Office</h2>
+
           <h2>Jamaica Office</h2>
           <div className="contact-grid">
             <h5>Office: </h5>
