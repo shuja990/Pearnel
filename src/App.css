@@ -9,9 +9,12 @@ body {
   background-color: #282626;
 }
 
+.dropdown-divider {
+  border: 1px solid white;
+}
+
 .offcanvas-backdrop {
-  display: none;
-  position: relative;
+  background-color: transparent;
 }
 
 .offcanvas.offcanvas-end {

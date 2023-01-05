@@ -16,8 +16,9 @@ const Header = () => {
         bg="dark"
         variant="dark"
         expand={false}
-        expanded={expanded}
+        defaultExpanded
         collapseOnSelect
+        // rootCloseEvent={() => setExpanded(!expanded)}
         style={{ background: "#3f3f3f" }}
       >
         <Container fluid>
@@ -39,13 +40,14 @@ const Header = () => {
                   <img
                     src={require("../assets/logo.png")}
                     alt="James"
-                    width="150px"
+                    width="120px"
                     style={{ filter: "none" }}
                   />
                 </Offcanvas.Title>
               </LinkContainer>
             </Offcanvas.Header>
             <Offcanvas.Body className="">
+              <NavDropdown.Divider></NavDropdown.Divider>
               <Nav>
                 <LinkContainer to="/about">
                   <Nav.Link>About </Nav.Link>
@@ -87,6 +89,8 @@ const Header = () => {
                   <Nav.Link>Contact </Nav.Link>
                 </LinkContainer>
               </Nav>
+              <NavDropdown.Divider></NavDropdown.Divider>
+
             </Offcanvas.Body>
           </Navbar.Offcanvas>
         </Container>
